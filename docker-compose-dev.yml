@@ -7,7 +7,7 @@ services:
       - 8080:8080
     env_file:
       - cymply.env
-    environment:
+    environment: 
       SPRING_PROFILES_ACTIVE: dev
     depends_on:
       redis:
